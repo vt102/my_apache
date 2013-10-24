@@ -1,0 +1,9 @@
+<html>
+  <body>
+    <h1>Welcome to <%= node['company'] %></h1>
+    <h2>We are ordered to reference <%= @site_name %></h2>
+    <%= node['ipaddress'] %>:<%= @port %>
+    <P />
+    <img src="<%= @image %>">
+  </body>
+</html>
